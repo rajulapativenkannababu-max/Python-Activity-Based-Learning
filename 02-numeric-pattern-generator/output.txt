@@ -1,0 +1,28 @@
+ADVANCED NUMERIC PATTERN GENERATOR
+Student : Rajulapati Venkanna Babu
+Roll No : 26000709
+----------------------------------------------
+Enter the size of the pattern (odd number, 3 to 15): 7
+
+1) Hollow diamond of numbers
+          1
+       2  2
+    3     3
+ 4        4
+    3     3
+       2  2
+          1
+
+2) Number pyramid
+      1
+    1 2 1
+  1 2 3 2 1
+1 2 3 4 3 2 1
+
+3) Reverse number triangle
+4 4 4 4
+3 3 3
+2 2
+1
+
+Pattern generated successfully for size 7

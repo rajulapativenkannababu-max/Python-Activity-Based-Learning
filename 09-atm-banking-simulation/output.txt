@@ -1,0 +1,54 @@
+ATM MENU-DRIVEN BANKING SIMULATION
+Student : Rajulapati Venkanna Babu
+Roll No : 26000709
+--------------------------------------------------
+Enter your 4 digit PIN: 2600
+
+1. Deposit
+2. Withdraw
+3. Balance enquiry
+4. Transaction summary
+5. Exit
+Enter your choice (1-5): 3
+Available balance: 8500
+
+1. Deposit
+2. Withdraw
+3. Balance enquiry
+4. Transaction summary
+5. Exit
+Enter your choice (1-5): 1
+Enter the amount to deposit: 2000
+Deposit successful. New balance: 10500
+
+1. Deposit
+2. Withdraw
+3. Balance enquiry
+4. Transaction summary
+5. Exit
+Enter your choice (1-5): 2
+Enter the amount to withdraw: 3000
+Withdrawal successful. New balance: 7500
+
+1. Deposit
+2. Withdraw
+3. Balance enquiry
+4. Transaction summary
+5. Exit
+Enter your choice (1-5): 4
+
+No  Type        Amount   Balance
+----------------------------------------
+1    deposit        2000     10500
+2    withdrawal     3000      7500
+----------------------------------------
+Transactions : 2
+Closing balance: 7500
+
+1. Deposit
+2. Withdraw
+3. Balance enquiry
+4. Transaction summary
+5. Exit
+Enter your choice (1-5): 5
+Thank you for banking with us. Closing balance: 7500

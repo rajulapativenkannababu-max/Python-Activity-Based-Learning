@@ -1,0 +1,12 @@
+TEXT COMPRESSION USING CHARACTER RUNS
+Student : Rajulapati Venkanna Babu
+Roll No : 26000709
+----------------------------------------------
+Enter the text to be compressed: aaabbbcccd
+
+Original text   : aaabbbcccd
+Encoded text    : a3b3c3d1
+Original length : 10
+Encoded length  : 8
+Result          : encoding is BENEFICIAL
+Space saved     : 2 characters (1.25 : 1 compression)

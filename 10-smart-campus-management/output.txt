@@ -1,0 +1,146 @@
+SMART CAMPUS MANAGEMENT SIMULATION
+Student : Rajulapati Venkanna Babu
+Roll No : 26000709
+==========================================================
+
+1. Student records
+2. Attendance report
+3. Marks and result
+4. Event registration
+5. Resource allocation
+6. Summary report
+7. Exit
+Enter your choice (1-7): 1
+
+Roll No   Name                       Att%  Marks
+----------------------------------------------------------
+26000709   Rajulapati Venkanna Babu     92     78
+26000710   Anitha Rao                   68     45
+26000711   Rakesh Kumar                 81     62
+26000712   Sneha Sharma                 55     34
+----------------------------------------------------------
+Total students on record : 4
+
+1. Student records
+2. Attendance report
+3. Marks and result
+4. Event registration
+5. Resource allocation
+6. Summary report
+7. Exit
+Enter your choice (1-7): 2
+
+Attendance report (minimum required = 75%)
+----------------------------------------------------------
+26000709 Rajulapati Venkanna Babu     92%  ELIGIBLE
+26000710 Anitha Rao                   68%  NOT ELIGIBLE - short by 7%
+26000711 Rakesh Kumar                 81%  ELIGIBLE
+26000712 Sneha Sharma                 55%  NOT ELIGIBLE - short by 20%
+----------------------------------------------------------
+Attendance eligible     : 2 out of 4
+
+1. Student records
+2. Attendance report
+3. Marks and result
+4. Event registration
+5. Resource allocation
+6. Summary report
+7. Exit
+Enter your choice (1-7): 3
+
+Subject wise marks (nested list)
+----------------------------------------------------------
+Name                             Maths     Physics Programming  Result
+Rajulapati Venkanna Babu            78          65          82  PASS
+Anitha Rao                          45          52          38  FAIL in 1 subject(s)
+Rakesh Kumar                        62          71          58  PASS
+Sneha Sharma                        34          41          27  FAIL in 2 subject(s)
+----------------------------------------------------------
+  Average in Maths        = 54.75
+  Average in Physics      = 57.25
+  Average in Programming  = 51.25
+Students with a backlog : 2
+
+1. Student records
+2. Attendance report
+3. Marks and result
+4. Event registration
+5. Resource allocation
+6. Summary report
+7. Exit
+Enter your choice (1-7): 4
+
+Event registrations
+----------------------------------------------------------
+TECH1    Anitha Rao                 registered
+CULT2    Rakesh Kumar               registered
+TECH1    Sneha Sharma               registered
+TECH1    Anitha Rao                 DUPLICATE ENTRY REJECTED
+----------------------------------------------------------
+  TECH1 -> 3 registration(s)
+  CULT2 -> 1 registration(s)
+Total valid registrations : 3
+
+1. Student records
+2. Attendance report
+3. Marks and result
+4. Event registration
+5. Resource allocation
+6. Summary report
+7. Exit
+Enter your choice (1-7): 5
+
+Resource allocation
+----------------------------------------------------------
+Enter the resource name needed: Laptop
+Enter the quantity required: 3
+ALLOCATED 3 unit(s) of Laptop
+Remaining : 3 unit(s)
+
+1. Student records
+2. Attendance report
+3. Marks and result
+4. Event registration
+5. Resource allocation
+6. Summary report
+7. Exit
+Enter your choice (1-7): 5
+
+Resource allocation
+----------------------------------------------------------
+Enter the resource name needed: Projector
+Enter the quantity required: 6
+PARTIAL - only 4 unit(s) of Projector available
+Shortfall : 2 unit(s)
+
+1. Student records
+2. Attendance report
+3. Marks and result
+4. Event registration
+5. Resource allocation
+6. Summary report
+7. Exit
+Enter your choice (1-7): 6
+
+CAMPUS SUMMARY REPORT
+----------------------------------------------------------
+Average attendance      : 74.0%
+Best overall marks      : Rajulapati Venkanna Babu (78)
+Events conducted        : 4 registrations
+Resources in store      :
+   Projector    -> 0 unit(s) left
+   Laptop       -> 3 unit(s) left
+   Speaker      -> 2 unit(s) left
+   Whiteboard   -> 5 unit(s) left
+Attendance warning      : Anitha Rao, Sneha Sharma
+----------------------------------------------------------
+
+1. Student records
+2. Attendance report
+3. Marks and result
+4. Event registration
+5. Resource allocation
+6. Summary report
+7. Exit
+Enter your choice (1-7): 7
+Exiting the smart campus simulation. Thank you.

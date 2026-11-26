@@ -1,0 +1,17 @@
+EXAMINATION RESULT AND GRACE-MARK VALIDATION
+Student : Rajulapati Venkanna Babu
+Roll No : 26000709
+----------------------------------------------------
+Subject      Raw  Final  Status
+----------------------------------------------------
+Maths         72    72  PASS
+Physics       33    35  PASS WITH GRACE (+2)
+Chemistry     28    28  FAIL
+English       64    64  PASS
+Programming   91    91  PASS
+----------------------------------------------------
+Total marks     : 290 / 500
+Percentage      : 58.0 %
+Grace subjects  : 1 (total grace marks = 2)
+Failed subjects : 1
+Classification  : FAIL - CLEAR THE FAILED SUBJECT(S)

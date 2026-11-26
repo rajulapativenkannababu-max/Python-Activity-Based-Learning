@@ -1,0 +1,33 @@
+LIBRARY BORROWING AND FINE RECONCILIATION
+Student : Rajulapati Venkanna Babu
+Roll No : 26000709
+----------------------------------------------------------------
+Borrowing register
+  B101 | Let Us C             | Anitha   |  10 days
+  B102 | Python Basics        | Rakesh   |  21 days
+  B103 | Data Structures      | Sneha    |  34 days
+  B104 | Operating Systems    | Vikram   |  14 days
+  B105 | Discrete Maths       | Meena    |  45 days
+  B106 | Computer Networks    | Anitha   |   3 days
+----------------------------------------------------------------
+Book  Title                Borrower   Days  Fine   Status
+----------------------------------------------------------------
+B101   Let Us C             Anitha      10     0  ON TIME
+B102   Python Basics        Rakesh      21    14  OVERDUE (7 days late)
+B103   Data Structures      Sneha       34   104  OVERDUE (20 days late)
+B104   Operating Systems    Vikram      14     0  ON TIME
+B105   Discrete Maths       Meena       45   214  OVERDUE (31 days late)
+B106   Computer Networks    Anitha       3     0  ON TIME
+----------------------------------------------------------------
+Overdue books        : 3 out of 6
+Total fine collected : 332 rupees
+
+Borrower-wise fine summary
+  Anitha         0  no dues
+  Rakesh        14  fine pending
+  Sneha        104  fine pending
+  Vikram         0  no dues
+  Meena        214  fine pending
+
+Highest fine      : Meena (214 rupees)
+Reconciliation done for 6 borrowed books

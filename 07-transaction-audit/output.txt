@@ -1,0 +1,37 @@
+TUPLE-BASED TRANSACTION AUDIT
+Student : Rajulapati Venkanna Babu
+Roll No : 26000709
+------------------------------------------------------------
+Transaction log
+  TXN101    4500  deposit
+  TXN102   12000  withdrawal
+  TXN102   12000  withdrawal
+  TXN103    -800  deposit
+  TXN104   60000  withdrawal
+  TXN105    2500  transfer
+  TXN105    2500  transfer
+  TXN106     300  deposit
+  TXN107       0  withdrawal
+------------------------------------------------------------
+Accepted : TXN101 | 4500 | deposit
+Accepted : TXN102 | 12000 | withdrawal
+FLAGGED  : TXN102 | 12000 | withdrawal -> duplicate transaction id
+FLAGGED  : TXN103 | -800 | deposit -> invalid amount
+FLAGGED  : TXN104 | 60000 | withdrawal -> withdrawal above limit
+Accepted : TXN105 | 2500 | transfer
+FLAGGED  : TXN105 | 2500 | transfer -> duplicate transaction id
+Accepted : TXN106 | 300 | deposit
+FLAGGED  : TXN107 | 0 | withdrawal -> invalid amount
+------------------------------------------------------------
+Valid transactions     : 4
+Suspicious entries     : 5
+
+Suspicious transaction report
+  TXN102     12000  withdrawal  -> duplicate transaction id
+  TXN103      -800  deposit     -> invalid amount
+  TXN104     60000  withdrawal  -> withdrawal above limit
+  TXN105      2500  transfer    -> duplicate transaction id
+  TXN107         0  withdrawal  -> invalid amount
+
+Total value of valid transactions : 19300
+Audit completed for 9 transactions

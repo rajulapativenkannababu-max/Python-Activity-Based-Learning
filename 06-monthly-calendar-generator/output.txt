@@ -1,0 +1,20 @@
+NESTED LOOP CALENDAR GENERATOR
+Student : Rajulapati Venkanna Babu
+Roll No : 26000709
+----------------------------------------------
+Enter month number (1 to 12): 11
+Enter number of days in the month (28 to 31): 30
+Enter starting weekday (1 = Monday ... 7 = Sunday): 6
+
+November  -  30 days, starts on Sat
+----------------------------------------------
+  Mon  Tue  Wed  Thu  Fri  Sat  Sun
+                             1    2
+    3    4    5    6    7    8    9
+   10   11   12   13   14   15   16
+   17   18   19   20   21   22   23
+   24   25   26   27   28   29   30
+----------------------------------------------
+Working days : 20
+Weekend days : 10
+Calendar generated successfully for November

@@ -1,0 +1,22 @@
+STUDENT MARKS MATRIX ANALYSIS
+Student : Rajulapati Venkanna Babu
+Roll No : 26000709
+--------------------------------------------------------------
+Marks matrix (rows = students, columns = subjects)
+Student         Maths    Physics  Chemistry    English   Total   Avg
+--------------------------------------------------------------
+Anitha             78         55         88         72     293  73.25
+Rakesh             91         62         79         95     327  81.75
+Sneha              45         38         38         61     182   45.5
+Vikram             67         48         70         69     254   63.5
+Meena              58         41         62         55     216   54.0
+--------------------------------------------------------------
+Subject-wise analysis
+  Maths       avg = 67.8   min = 45  max = 91  -> satisfactory
+  Physics     avg = 48.8   min = 38  max = 62  -> LOW AVERAGE - needs attention
+  Chemistry   avg = 67.4   min = 38  max = 88  -> satisfactory
+  English     avg = 70.4   min = 55  max = 95  -> satisfactory
+--------------------------------------------------------------
+Top performer  : Rakesh with 327 marks
+Backlog        : Sneha failed in Physics, Chemistry
+Class average  : 63.6

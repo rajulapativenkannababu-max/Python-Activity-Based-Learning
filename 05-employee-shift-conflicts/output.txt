@@ -1,0 +1,24 @@
+EMPLOYEE SHIFT CONFLICT DETECTION
+Student : Rajulapati Venkanna Babu
+Roll No : 26000709
+----------------------------------------------------------
+Shift register
+  E101 | Monday     |  9:00 to 13:00
+  E102 | Monday     | 10:00 to 15:00
+  E101 | Monday     | 14:00 to 18:00
+  E103 | Tuesday    |  9:00 to 12:00
+  E102 | Tuesday    | 12:00 to 17:00
+  E104 | Wednesday  |  8:00 to 12:00
+  E104 | Wednesday  | 11:00 to 16:00
+  E105 | Thursday   | 13:00 to 18:00
+----------------------------------------------------------
+Conflict : E101 on Monday -> INSUFFICIENT REST (1 h)
+Conflict : E104 on Wednesday -> OVERLAP
+----------------------------------------------------------
+Total conflicts found : 2
+  E101 Monday shifts 9-13 and 14-18 -> INSUFFICIENT REST (1 h)
+  E104 Wednesday shifts 8-12 and 11-16 -> OVERLAP
+----------------------------------------------------------
+Employees without any conflict : ['E102', 'E103', 'E105']
+Most conflicts         : E101 (1 conflict(s))
+Action required        : reschedule E101 shifts by at least 2 hours
