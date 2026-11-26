@@ -1,8 +1,8 @@
 # Python Activity-Based Learning
 
-**Name:** Rajulapati Venkanna Babu
-**Roll No:** 26000709
-**Section:** Section - 4
+**Name:** Rajulapati Venkanna Babu<br>
+**Roll No:** 26000709<br>
+**Section:** Section - 4<br>
 **Subject:** Python Programming
 
 This repository contains the Python Activity-Based Learning assignment. Ten case studies
